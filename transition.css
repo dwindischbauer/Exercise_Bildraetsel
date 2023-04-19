@@ -1,0 +1,32 @@
+/* full screen design */
+
+div div{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* full screen background image */
+body{
+    background-image: url(../Exercise_Bildraetsel/secret_image.jpg);
+    background-size:cover;
+
+}
+/*Weiß leider nicht ganu wieso die Boxen jetzt anders groß sind auf einbem Laptop als auf Desktop trotz vw
+aber sollte so passen glaube es ist sehr kompliziert gemacht jedoch sollte es funktionieren */
+div div div {
+    background-color: rgb(0, 0, 0);
+    opacity: 1;
+    width: 9.8vw;
+    height: 9vw;
+    margin-left: 1%;
+    margin-top: 1%;
+    transition-delay: 7s;
+    transition-duration: 1s;
+  }
+  
+  div div div:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0);
+    transition-duration: 0.5s; 
+    transition: ease-in 0.5s;
+  }
+  
